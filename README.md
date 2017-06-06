@@ -54,8 +54,8 @@ Commands:
   amber n new                     # Generate a new amber project
   amber m migrate [SUBCOMMAND]    # Performs database migrations tasks
   amber w watch                   # Starts amber server and rebuilds on file changes
-  amber r routes                  # Prints the routes (In Development)
-  amber b build [OPTION]          # Compiles and builds your project. Options: [release] (In Development)
+  amber routes                    # Prints the routes (In Development)
+  amber r release                 # Creates mark release points and deploy to cloud services
   
 Options:
   -t, --template [name]           # Preconfigure for selected template engine. Options: slang | ecr 
